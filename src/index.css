@@ -31,7 +31,7 @@ header {
 
 header > h5 {
     color: hsl(221, 100%, 96%);
-    font-size: 18px;
+    font-size: 1.125rem;
     
 }
 
@@ -59,7 +59,7 @@ header > h5 {
 .percentage > p {
     color: hsl(241, 100%, 89%);
     margin: 0;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 header > h3 {
@@ -73,7 +73,7 @@ header > p {
     max-width: 300px;
     color: hsl(241, 100%, 89%);
     text-align: center;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 main {
@@ -83,11 +83,17 @@ main {
 }
 
 main > h3{
-    font-size: 18px;
+    font-size: 1.125rem;
     color:hsl(224, 30%, 27%);
 }
 
-main > div {
+main > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+main li {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -96,38 +102,38 @@ main > div {
     margin: 7px 0;
 }
 
-main > div > h5 {
+main li > h5 {
     margin: 0;
     font-size: 16px;
     font-weight: 500;
 }
 
-main > div > p {
+main li > p {
     margin: 0 0 0 auto;
     color: hsl(220, 10%, 60%);
 }
 
-main > div > p > span {
+main li > p > span {
     color: hsl(224, 30%, 27%);
     font-weight: 700;
 }
 
-main > div.category-reaction {
+main li.category-reaction {
     color:  hsl(0, 100%, 67%);
     background-color: hsla(0, 100%, 67%, 0.05);
 }
 
-main > div.category-memory {
+main li.category-memory {
     color:  hsl(39, 100%, 56%);
     background-color: hsla(39, 100%, 56%, 0.05);
 }
 
-main > div.category-verbal {
+main li.category-verbal {
     color:  hsl(166, 100%, 37%);
     background-color: hsla(166, 100%, 37%, 0.05);
 }
 
-main > div.category-visual {
+main li.category-visual {
     color:  hsl(234, 85%, 45%);
     background-color: hsla(234, 85%, 45%, 0.05);
 }
@@ -135,7 +141,7 @@ main > div.category-visual {
 main > button {
     font-family: "Hanken Grotesk";
     color: hsl(0, 0%, 100%);
-    font-size: 18px;
+    font-size: 1.125rem;
     border: none;
     padding: 10px 0;
     border-radius: 20px;
